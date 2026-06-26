@@ -1,6 +1,5 @@
 # 🧠 DevPulseAI — Multi-Agent Signal Intelligence
-
-A reference implementation demonstrating how to build a **multi-agent pipeline** that aggregates technical signals from multiple sources, scores them for relevance, assesses risks, and synthesizes an actionable intelligence digest.
+A reference implementation demonstrating how to build a multi-agent pipeline that aggregates technical signals from multiple sources, scores them for relevance, assesses risks, and synthesizes an actionable intelligence digest.
 
 > **Design Philosophy:** Agents are used **only where reasoning is required.** Deterministic operations (collection, normalization, deduplication) are implemented as plain utilities — not agents.
 
