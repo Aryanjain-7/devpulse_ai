@@ -25,7 +25,7 @@ A reference implementation demonstrating how to build a multi-agent pipeline tha
 ┌──────────────────────────────────────────────────────────┐
 │  RelevanceAgent (AGENT — gpt-4.1-mini)                   │
 │  • Scores each signal 0–100 for developer relevance      │
-│  • Considers: novelty, impact, actionability, timeliness  │
+│  • Considers: novelty, actionability, timeliness  │
 │  • Falls back to heuristics if no API key                 │
 └──────────────────────┬───────────────────────────────────┘
                        │ scored signals
